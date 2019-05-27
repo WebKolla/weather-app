@@ -4,6 +4,7 @@ export interface City {
   population?: number;
   coord?: Coordinates;
   country?: string;
+  list?: Array<any>;
 }
 
 export interface Coordinates {
